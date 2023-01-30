@@ -1,0 +1,19 @@
+<svg width="24.000000000000004" height="50" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="52" width="26" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke-width="0" id="SVGRepo_bgCarrier"/>
+  <g stroke="null" transform="rotate(90 0.061473846435545106,12.250267028808596) " id="svg_3">
+   <g stroke="#797777" stroke-width="1.68" stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier">
+    <path stroke="null" id="svg_1" fill="#969292" d="m7.124103,-2c-7.801205,0 -14.12526,6.380058 -14.12526,14.250266c0,7.870244 6.324056,14.250266 14.12526,14.250266l0,-5.34385c-4.875687,0 -8.828288,-3.987581 -8.828288,-8.906416c0,-4.918871 3.952601,-8.906416 8.828288,-8.906416l0,-5.34385z"/>
+   </g>
+   <g stroke="null" id="SVGRepo_iconCarrier">
+    <path stroke="null" id="svg_2" fill="#969292" d="m7.124103,-2c-7.801205,0 -14.12526,6.380058 -14.12526,14.250266c0,7.870244 6.324056,14.250266 14.12526,14.250266l0,-5.34385c-4.875687,0 -8.828288,-3.987581 -8.828288,-8.906416c0,-4.918871 3.952601,-8.906416 8.828288,-8.906416l0,-5.34385z"/>
+   </g>
+  </g>
+ </g>
+</svg>
