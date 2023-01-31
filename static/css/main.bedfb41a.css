@@ -201,7 +201,7 @@ input:focus {
     overflow: hidden;
 }
 .photo {
-    background: url(./static/media/photo1.4ce537115ae63947014f.jpg) 0 100%/200px no-repeat;
+    background: url(../media/photo1.4ce537115ae63947014f.jpg) 0 100%/200px no-repeat;
     border-radius: 50%;
     height: 200px;
     width: 200px;
