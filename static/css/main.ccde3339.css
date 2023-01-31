@@ -86,9 +86,6 @@ body {
     height: 100%;
     overflow: auto;
 }
-input:focus {
-    box-shadow: 0 0 5px 2px #3ac4fa;
-}
 #root {
     align-items: center;
     background-color: #333;
@@ -290,6 +287,13 @@ input:focus {
         -webkit-transform: none;
         transform: none;
         width: 100vw !important;
+    }
+    .examples__title {
+        margin-bottom: 20px;
+    }
+    .examples__description p {
+        line-height: 2rem;
+        padding: 10px;
     }
 }
 @font-face {
@@ -747,4 +751,4 @@ button.swiper-pagination-bullet {
 .swiper-fade .swiper-slide-active .swiper-slide-active {
     pointer-events: auto;
 }
-/*# sourceMappingURL=main.bedfb41a.css.map*/
+/*# sourceMappingURL=main.ccde3339.css.map*/
