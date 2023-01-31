@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sorrint.io/portfolio/static/css/main.bedfb41a.css",
-    "main.js": "/sorrint.io/portfolio/static/js/main.141d99a2.js",
+    "main.js": "/sorrint.io/portfolio/static/js/main.79a00c99.js",
     "static/media/photo1.jpg": "/sorrint.io/portfolio/static/media/photo1.4ce537115ae63947014f.jpg",
     "static/media/Manrope.ttf": "/sorrint.io/portfolio/static/media/Manrope.95cc165789861324e025.ttf",
     "static/media/OrchideaPro-Regular.ttf": "/sorrint.io/portfolio/static/media/OrchideaPro-Regular.0e67fa619a6c6d67dfe7.ttf",
     "static/media/Railway.ttf": "/sorrint.io/portfolio/static/media/Railway.34cec37d2c829b6bc693.ttf",
     "index.html": "/sorrint.io/portfolio/index.html",
     "main.bedfb41a.css.map": "/sorrint.io/portfolio/static/css/main.bedfb41a.css.map",
-    "main.141d99a2.js.map": "/sorrint.io/portfolio/static/js/main.141d99a2.js.map"
+    "main.79a00c99.js.map": "/sorrint.io/portfolio/static/js/main.79a00c99.js.map"
   },
   "entrypoints": [
     "static/css/main.bedfb41a.css",
-    "static/js/main.141d99a2.js"
+    "static/js/main.79a00c99.js"
   ]
 }
