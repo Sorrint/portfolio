@@ -20,10 +20,12 @@ export default defineConfig({
     build: {
         commonjsOptions: {
             esmExternals: true
-        
-    }},
+
+        }
+    },
     server: {
         host: '0.0.0.0',
         port: 5000
     },
+    base: '/portfolio'
 });
