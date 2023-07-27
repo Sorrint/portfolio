@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@charset "UTF-8";
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: none;
+}
+
+input ::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* img {
+    vertical-align: top;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*----------------------------------------*/
+@font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-display: swap;
+    src: url('../shared/assets/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-display: swap;
+    src: url('../shared/assets/fonts/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-display: swap;
+    src: url('../shared/assets/fonts/Inter-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-display: swap;
+    src: url('../shared/assets/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-style: normal;
+    font-weight: 800;
+    font-family: 'Inter';
+    font-display: swap;
+    src: url('../shared/assets/fonts/Inter-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-style: normal;
+    font-weight: 900;
+    font-family: 'Inter';
+    font-display: swap;
+    src: url('../shared/assets/fonts/Inter-Black.ttf') format('truetype');
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+#root {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+:focus {
+    outline: red solid 1px;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+.is-invalid {
+    color: red;
+}
+
+img {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
