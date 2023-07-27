@@ -34,7 +34,7 @@ export const ProjectSlider = ({ project }: IProjectInfoProps) => {
                     {images.map((example, index) => (
                         <SwiperSlide
                             key={`${example}${index}`}>
-                            <img src={`${SERVER_BASE}assets/images/${example}.png`} className="w-full h-full object-cover" ></img>
+                            <img src={`${SERVER_BASE}images/${example}.png`} className="w-full h-full object-cover" ></img>
                         </SwiperSlide>
                     ))}
                 </Swiper>
@@ -54,7 +54,7 @@ export const ProjectSlider = ({ project }: IProjectInfoProps) => {
                             className="relative flex w-[245px] h-auto flex-col rounded-[12px] "
                             key={`${example}${index}`}>
                             <div className={`${index === activeIndex && 'border-2 border-solid border-indigo-600'} flex flex-1 shrink-0 cursor-pointer items-center justify-center overflow-hidden rounded-[12px] md:w-full`}>
-                                <img src={`${SERVER_BASE}assets/images/${example}.png`}></img>
+                                <img src={`${SERVER_BASE}images/${example}.png`}></img>
                             </div>
                         </SwiperSlide>
                     ))}
